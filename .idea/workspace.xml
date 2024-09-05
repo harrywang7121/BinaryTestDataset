@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2040ce61-564b-4d25-9fe0-b825fef98ab1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WebScreenshot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/BinaryTestDataset.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
@@ -2653,6 +2654,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2lf2na0pyAWc7ADEN3kO810N2hi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -2679,6 +2683,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/068/Fresh_Meat" />
     </key>
   </component>
@@ -2703,7 +2708,7 @@
       <workItem from="1725558991295" duration="1521000" />
       <workItem from="1725560810915" duration="4220000" />
       <workItem from="1725565359269" duration="5503000" />
-      <workItem from="1725571232466" duration="996000" />
+      <workItem from="1725571232466" duration="6870000" />
     </task>
     <servers />
   </component>

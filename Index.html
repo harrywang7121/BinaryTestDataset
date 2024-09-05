@@ -82,7 +82,7 @@
   </div>
   <div>
     <button class="button-success" onclick="recordClick(1)">Success</button>
-    <button class="button-fail" onclick="recordClick(0)">Fail</button>
+    <button class="button-fail" onclick="recordClick(0)">Failure</button>
     <button onclick="exportTableToCSV('export.csv')">Export Table</button>
   </div>
   <div class="table-container">
@@ -168,34 +168,34 @@
 
     count = 0;
     function recordClick(value) {
-        if (videoIndex >= videoList.length) {
-            alert('No more videos to review');
-            exportTableToCSV('export.csv');
-            return;
-        }
+      if (videoIndex >= videoList.length) {
+          alert('No more videos to review');
+          exportTableToCSV('export.csv');
+          return;
+      }
 
-        const currentVideo = videoList[videoIndex];
+      const currentVideo = videoList[videoIndex];
 
-        const table = document.getElementById('recordTable');
-        const row = table.insertRow(-1);
-        const cell0 = row.insertCell(0);
-        const cell1 = row.insertCell(1);
-        const cell2 = row.insertCell(2);
-        cell0.innerHTML = currentVideo.folder;
-        cell1.innerHTML = currentVideo.name;
-        cell2.innerHTML = value;
+      const table = document.getElementById('recordTable');
+      const row = table.insertRow(-1);
+      const cell0 = row.insertCell(0);
+      const cell1 = row.insertCell(1);
+      const cell2 = row.insertCell(2);
+      cell0.innerHTML = currentVideo.folder;
+      cell1.innerHTML = currentVideo.name;
+      cell2.innerHTML = value;
 
-        count++;
-        updateProgressDisplay();
+      count++;
+      updateProgressDisplay();
 
-        videoIndex++;
+      videoIndex++;
 
-        if (videoIndex < videoList.length) {
-            loadMedia(videoIndex);
-        } else {
-            alert('No more videos to review');
-            exportTableToCSV('export.csv');
-        }
+      if (videoIndex < videoList.length) {
+          loadMedia(videoIndex);
+      } else {
+          alert('No more videos to review');
+          exportTableToCSV('export.csv');
+      }
     }
 
     console.log("Current index: " + videoIndex);
