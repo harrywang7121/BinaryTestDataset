@@ -48,7 +48,7 @@ For calibration, we give three typical groups for each success/fail:
 
 **Failure**:
 1. Prompt: A red mushroom    
-<img src="fail1.png" style="max-width: 256px;">  <img src="fail1.gif" style="max-width: 256px;">  
+<img src="fail1.png" style="width: 256px;">  <img src="fail1.gif" style="width: 256px;">  
 
 2. Prompt: A talking cactus with a sombrero  
 <img src="fail2.png" style="max-width: 256px;">  <img src="fail2.gif" style="max-width: 256px;">
