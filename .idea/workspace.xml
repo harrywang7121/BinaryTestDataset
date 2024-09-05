@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2040ce61-564b-4d25-9fe0-b825fef98ab1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BinaryTestDataset.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/096/A_green_Smith_&amp;_Wesson_J-Frame/A_green_Smith_&amp;_Wesson_J-Frame.png" beforeDir="false" afterPath="$PROJECT_DIR$/096/A_green_Smith_Wesson_J-Frame/A_green_Smith_Wesson_J-Frame.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/output.json" afterDir="false" />
-    </list>
+    <list default="true" id="2040ce61-564b-4d25-9fe0-b825fef98ab1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +71,7 @@
       <workItem from="1725557869663" duration="491000" />
       <workItem from="1725558991295" duration="1521000" />
       <workItem from="1725560810915" duration="4220000" />
-      <workItem from="1725565359269" duration="4832000" />
+      <workItem from="1725565359269" duration="5148000" />
     </task>
     <servers />
   </component>
