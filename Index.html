@@ -61,10 +61,17 @@
     font-size: 24px;
     margin-top: 20px;
   }
+
+  #progressDisplay {
+    font-size: 18px;
+    margin: 20px;
+    color: #333;
+  }
 </style>
 </head>
 
 <body>
+  <div id="progressDisplay">Progress: 0/800</div>
   <h2 id="pageTitle">Video Title</h2>
   <div class="media-container">
     <img id="imageDisplay" src="" alt="Associated Image">
@@ -128,8 +135,12 @@
                 list.push({ path: path, name: formattedSubFolder, folder: folder });
             });
         }
-        return shuffleArray(list);
+        // console.log("Original list length: " + list.length);
+        list = shuffleArray(list);
+        // console.log("Shuffled list length: " + list.length);
+        return list;
     }
+
 
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -140,6 +151,9 @@
     }
 
     function loadMedia(index) {
+      if (index >= videoList.length) {
+          return;
+      }
       const currentVideo = videoList[index];
       const videoPlayer = document.getElementById('videoPlayer');
       const imageDisplay = document.getElementById('imageDisplay');
@@ -152,34 +166,44 @@
       document.getElementById('pageTitle').textContent = currentVideo.name;
     }
 
+    count = 0;
     function recordClick(value) {
-        if (videoIndex >= videoList.length - 1) {
-            alert('No more videos to review');
-            exportTableToCSV('export.csv');
-            return;
-        }
+      if (videoIndex >= videoList.length - 1) {
+          alert('No more videos to review');
+          exportTableToCSV('export.csv');
+          return;
+      }
+      count++;
 
-        videoIndex++;
+      updateProgressDisplay();
+      videoIndex++;
+      const currentVideo = videoList[videoIndex - 1];
+      const table = document.getElementById('recordTable');
+      const row = table.insertRow(-1);
+      const cell0 = row.insertCell(0);
+      const cell1 = row.insertCell(1);
+      const cell2 = row.insertCell(2);
+      cell0.innerHTML = currentVideo.folder;
+      cell1.innerHTML = currentVideo.name;
+      cell2.innerHTML = value;
 
-        const currentVideo = videoList[videoIndex];
-        const videoPlayer = document.getElementById('videoPlayer');
-        const imageDisplay = document.getElementById('imageDisplay');
-        const imagePath = `/${currentVideo.folder}/rendered_pic.png`;
+      console.log("videoIndex:" + videoIndex)
+      console.log("videoList.length:" + videoList.length)
+      console.log(count)
+      if (videoIndex >= videoList.length) {
+        alert('No more videos to review');
+        exportTableToCSV('export.csv');
+      } else {
+        loadMedia(videoIndex);
+      }
+    }
 
-        videoPlayer.src = currentVideo.path;
-        imageDisplay.src = imagePath;
-        videoPlayer.load();
+    console.log("Current index: " + videoIndex);
+    console.log("Video list length: " + videoList.length);
 
-        document.getElementById('pageTitle').textContent = currentVideo.name;
-
-        const table = document.getElementById('recordTable');
-        const row = table.insertRow(-1);
-        const cell0 = row.insertCell(0);
-        const cell1 = row.insertCell(1);
-        const cell2 = row.insertCell(2);
-        cell0.innerHTML = currentVideo.folder;
-        cell1.innerHTML = currentVideo.name;
-        cell2.innerHTML = value;
+    function updateProgressDisplay() {
+        const progressElement = document.getElementById('progressDisplay');
+        progressElement.textContent = `Progress: ${count}/800`;
     }
 
     function exportTableToCSV(filename) {

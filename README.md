@@ -1,5 +1,7 @@
 # Welcome to the Evaluation!
 
+
+## Read Before Taking Any Action
 ## Overview
 This session aims to evaluate the outputs of the 'Haptic Repurposing with GenAI' system. You'll be asked to assess each generated result as either 'success' or 'failure' using the provided interface.
 
