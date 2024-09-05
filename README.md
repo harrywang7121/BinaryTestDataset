@@ -51,19 +51,19 @@ For calibration, we give three typical groups for each success/fail:
 <img src="fail1.png" style="width: 256px;">  <img src="fail1.gif" style="width: 256px;">  
 
 2. Prompt: A talking cactus with a sombrero  
-<img src="fail2.png" style="max-width: 256px;">  <img src="fail2.gif" style="max-width: 256px;">
+<img src="fail2.png" style="width: 256px;">  <img src="fail2.gif" style="width: 256px;">
 
 3. Prompt: Dragon  
-<img src="fail3.png" style="max-width: 256px;">  <img src="fail3.gif" style="max-width: 256px;">
+<img src="fail3.png" style="width: 256px;">  <img src="fail3.gif" style="width: 256px;">
 
 
 
 **Success**:
 1. Prompt: Spaceship  
-<img src="success1.png" style="max-width: 256px;">  <img src="success1.gif" style="max-width: 256px;">
+<img src="success1.png" style="width: 256px;">  <img src="success1.gif" style="width: 256px;">
 
 2. Prompt: Pink jar with woven texture  
-<img src="success2.png" style="max-width: 256px;">  <img src="success2.gif" style="max-width: 256px;">
+<img src="success2.png" style="width: 256px;">  <img src="success2.gif" style="width: 256px;">
 
 3. Prompt: Smart Home Central Hub  
-<img src="success3.png" style="max-width: 256px;">  <img src="success3.gif" style="max-width: 256px;">
+<img src="success3.png" style="width: 256px;">  <img src="success3.gif" style="width: 256px;">
