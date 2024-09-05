@@ -168,34 +168,34 @@
 
     count = 0;
     function recordClick(value) {
-      if (videoIndex >= videoList.length - 1) {
-          alert('No more videos to review');
-          exportTableToCSV('export.csv');
-          return;
-      }
-      count++;
+        if (videoIndex >= videoList.length) {
+            alert('No more videos to review');
+            exportTableToCSV('export.csv');
+            return;
+        }
 
-      updateProgressDisplay();
-      videoIndex++;
-      const currentVideo = videoList[videoIndex - 1];
-      const table = document.getElementById('recordTable');
-      const row = table.insertRow(-1);
-      const cell0 = row.insertCell(0);
-      const cell1 = row.insertCell(1);
-      const cell2 = row.insertCell(2);
-      cell0.innerHTML = currentVideo.folder;
-      cell1.innerHTML = currentVideo.name;
-      cell2.innerHTML = value;
+        const currentVideo = videoList[videoIndex];
 
-      console.log("videoIndex:" + videoIndex)
-      console.log("videoList.length:" + videoList.length)
-      console.log(count)
-      if (videoIndex >= videoList.length) {
-        alert('No more videos to review');
-        exportTableToCSV('export.csv');
-      } else {
-        loadMedia(videoIndex);
-      }
+        const table = document.getElementById('recordTable');
+        const row = table.insertRow(-1);
+        const cell0 = row.insertCell(0);
+        const cell1 = row.insertCell(1);
+        const cell2 = row.insertCell(2);
+        cell0.innerHTML = currentVideo.folder;
+        cell1.innerHTML = currentVideo.name;
+        cell2.innerHTML = value;
+
+        count++;
+        updateProgressDisplay();
+
+        videoIndex++;
+
+        if (videoIndex < videoList.length) {
+            loadMedia(videoIndex);
+        } else {
+            alert('No more videos to review');
+            exportTableToCSV('export.csv');
+        }
     }
 
     console.log("Current index: " + videoIndex);
