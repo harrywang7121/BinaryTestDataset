@@ -33,16 +33,19 @@
     font-size: 16px;
     cursor: pointer;
   }
-  .button-success {
-    background-color: #4CAF50;
-    color: white;
-    font-weight: bold;
-  }
-  .button-fail {
-    background-color: #f44336;
-    color: white;
-    font-weight: bold;
-  }
+  .button-success, .button-fail {
+      background-color: #f0f0f0;
+      color: black;
+    }
+    .active-success {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .active-fail {
+      background-color: #f44336;
+      color: white;
+    }
+
   .table-container {
     width: 90%;
     max-height: 200px;
@@ -81,8 +84,19 @@
     </video>
   </div>
   <div>
-    <button class="button-success" onclick="recordClick(1)">Success</button>
-    <button class="button-fail" onclick="recordClick(0)">Failure</button>
+    <div>
+      <button class="button-success" id="button1" onclick="toggleState(1)">Success 1</button>
+      <button class="button-fail" id="button2" onclick="toggleState(2)">Failure 1</button>
+    </div>
+    <div>
+      <button class="button-success" id="button3" onclick="toggleState(3)">Success 2</button>
+      <button class="button-fail" id="button4" onclick="toggleState(4)">Failure 2</button>
+    </div>
+    <div>
+      <button class="button-success" id="button5" onclick="toggleState(5)">Success 3</button>
+      <button class="button-fail" id="button6" onclick="toggleState(6)">Failure 3</button>
+    </div>
+    <button id="nextButton" onclick="submitAndLoadNext()">Go to Next</button>
     <button onclick="exportTableToCSV('export.csv')">Export Table</button>
   </div>
   <div class="table-container">
@@ -98,25 +112,19 @@
   <script>
     let videoList = [];
     let videoIndex = 0;
+    let count = 0; // 确保声明并初始化计数器
+    let buttonStates = [null, null, null]; // 存储每组按钮的状态
 
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('output.json')
-            .then(response => response.json())
-            .then(data => {
-                videoList = buildVideoList(data);
-                if (videoList.length > 0) {
-                    loadMedia(videoIndex);
-                }
-            })
-            .catch(error => console.error('Error loading the JSON data: ', error));
-    });
-
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 's') {
-            recordClick(1);
-        } else if (event.key === 'f') {
-            recordClick(0);
-        }
+      fetch('output.json')
+        .then(response => response.json())
+        .then(data => {
+          videoList = buildVideoList(data);
+          if (videoList.length > 0) {
+            loadMedia(videoIndex);
+          }
+        })
+        .catch(error => console.error('Error loading the JSON data: ', error));
     });
 
     document.addEventListener('DOMContentLoaded', function() {
@@ -127,83 +135,106 @@
     });
 
     function buildVideoList(data) {
-        var list = [];
-        for (let folder in data) {
-            data[folder].forEach(subFolder => {
-                const formattedSubFolder = subFolder.replace(/_/g, ' ');
-                const path = `/${folder}/${subFolder}/0/render.mp4`;
-                list.push({ path: path, name: formattedSubFolder, folder: folder });
-            });
-        }
-        // console.log("Original list length: " + list.length);
-        list = shuffleArray(list);
-        // console.log("Shuffled list length: " + list.length);
-        return list;
+      var list = [];
+      for (let folder in data) {
+        data[folder].forEach(subFolder => {
+          const formattedSubFolder = subFolder.replace(/_/g, ' ');
+          const path = `/${folder}/${subFolder}/0/render.mp4`;
+          list.push({ path: path, name: formattedSubFolder, folder: folder });
+        });
+      }
+      list = shuffleArray(list);
+      return list;
     }
 
-
     function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
     }
 
     function loadMedia(index) {
       if (index >= videoList.length) {
-          return;
+        return;
       }
       const currentVideo = videoList[index];
       const videoPlayer = document.getElementById('videoPlayer');
       const imageDisplay = document.getElementById('imageDisplay');
       const imagePath = `/${currentVideo.folder}/rendered_pic.png`;
 
+      document.getElementById('pageTitle').textContent = currentVideo.name;
       videoPlayer.src = currentVideo.path;
       imageDisplay.src = imagePath;
       videoPlayer.load();
 
-      document.getElementById('pageTitle').textContent = currentVideo.name;
+      resetButtonStates();
     }
 
-    count = 0;
-    function recordClick(value) {
-      if (videoIndex >= videoList.length) {
-          alert('No more videos to review');
-          exportTableToCSV('export.csv');
-          return;
+    function resetButtonStates() {
+      buttonStates = [null, null, null];
+      for (let i = 1; i <= 6; i++) {
+        const button = document.getElementById('button' + i);
+        button.classList.remove('active-success', 'active-fail');
+      }
+    }
+
+    function toggleState(buttonId) {
+      const button = document.getElementById('button' + buttonId);
+      const group = Math.ceil(buttonId / 2) - 1;
+      const isSuccess = button.classList.contains('button-success');
+
+      if (buttonStates[group] !== null) {
+        const prevButton = document.getElementById('button' + (2 * group + 1 + (buttonStates[group] === 1 ? 0 : 1)));
+        prevButton.classList.remove('active-success', 'active-fail');
+      }
+
+      if (isSuccess) {
+        button.classList.toggle('active-success', !button.classList.contains('active-success'));
+        buttonStates[group] = button.classList.contains('active-success') ? 1 : null;
+      } else {
+        button.classList.toggle('active-fail', !button.classList.contains('active-fail'));
+        buttonStates[group] = button.classList.contains('active-fail') ? 0 : null;
+      }
+    }
+
+    function submitAndLoadNext() {
+      if (buttonStates.includes(null)) {
+        alert('Please make a selection for each question.');
+        return;
       }
 
       const currentVideo = videoList[videoIndex];
-
       const table = document.getElementById('recordTable');
       const row = table.insertRow(-1);
       const cell0 = row.insertCell(0);
       const cell1 = row.insertCell(1);
       const cell2 = row.insertCell(2);
+      const cell3 = row.insertCell(3);
+      const cell4 = row.insertCell(4);
       cell0.innerHTML = currentVideo.folder;
       cell1.innerHTML = currentVideo.name;
-      cell2.innerHTML = value;
+      cell2.innerHTML = buttonStates[0];
+      cell3.innerHTML = buttonStates[1];
+      cell4.innerHTML = buttonStates[2];
 
       count++;
       updateProgressDisplay();
-
       videoIndex++;
+      buttonStates = [null, null, null];
 
       if (videoIndex < videoList.length) {
-          loadMedia(videoIndex);
+        loadMedia(videoIndex);
       } else {
-          alert('No more videos to review');
-          exportTableToCSV('export.csv');
+        alert('No more videos to review');
+        exportTableToCSV('export.csv');
       }
     }
 
-    console.log("Current index: " + videoIndex);
-    console.log("Video list length: " + videoList.length);
-
     function updateProgressDisplay() {
-        const progressElement = document.getElementById('progressDisplay');
-        progressElement.textContent = `Progress: ${count}/800`;
+      const progressElement = document.getElementById('progressDisplay');
+      progressElement.textContent = `Progress: ${count}/800`;
     }
 
     function exportTableToCSV(filename) {
