@@ -14,25 +14,84 @@
     justify-content: center;
     background-color: #f0f0f0;
   }
+
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: stretch;
+  }
+
+  .left-container, .right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .media-container, .table-container {
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .question-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .question-group {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    padding-left: 40px;
+    width: 100%;
+  }
+
+  .right-container > button {
+    margin-top: 20px;
+    width: auto;
+  }
+
+  button {
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
   .media-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
   }
+
   video, img {
-    max-width: 45%;
+    max-width: 30%;
     max-height: 350px;
     object-fit: contain;
     border: 2px solid #000;
     margin: 5px;
   }
-  button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
+
   .button-success, .button-fail {
       background-color: #f0f0f0;
       color: black;
@@ -50,6 +109,7 @@
     width: 90%;
     max-height: 200px;
     overflow-y: auto;
+    text-align: left;
     border: 1px solid black;
   }
   table {
@@ -74,46 +134,57 @@
 </head>
 
 <body>
-  <div id="progressDisplay">Progress: 0/800</div>
-  <h2 id="pageTitle">Video Title</h2>
-  <div class="media-container">
-    <img id="imageDisplay" src="" alt="Associated Image">
-    <video id="videoPlayer" controls autoplay muted loop>
-      <source id="videoSource" src="" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div>
-    <div>
-      <button class="button-success" id="button1" onclick="toggleState(1)">Success 1</button>
-      <button class="button-fail" id="button2" onclick="toggleState(2)">Failure 1</button>
+  <div class="container">
+    <div class="left-container">
+      <div id="progressDisplay">Progress: 0/800</div>
+      <h2 id="pageTitle">Video Title</h2>
+      <div class="media-container" style="padding-bottom: 30px">
+        <img id="imageDisplay" src="" alt="Associated Image">
+        <video id="videoCenter" muted loop>
+          <source id="videoCenterSource" src="" type="video/mp4">
+        </video>
+        <video id="videoPlayer" autoplay muted loop>
+          <source id="videoSource" src="" type="video/mp4">
+        </video>
+      </div>
+      <div class="table-container">
+        <table id="recordTable">
+            <tr>
+                <th>Original Object</th>
+                <th>Prompt</th>
+                <th>Recognizable</th>
+                <th>Adjectives</th>
+                <th>Overall</th>
+            </tr>
+        </table>
+      </div>
     </div>
-    <div>
-      <button class="button-success" id="button3" onclick="toggleState(3)">Success 2</button>
-      <button class="button-fail" id="button4" onclick="toggleState(4)">Failure 2</button>
+    <div class="right-container">
+      <div class="question-group">
+        <p class="question-title"><strong>Recognizable:</strong> Is the element from the prompt recognizable? </p>
+        <button class="button-success" id="button1" onclick="toggleState(1)">Success 1</button>
+        <button class="button-fail" id="button2" onclick="toggleState(2)">Failure 1</button>
+      </div>
+      <div class="question-group">
+        <p class="question-title"><strong>Adjectives:</strong> Does the result align with the adjectives? </p>
+        <button class="button-success" id="button3" onclick="toggleState(3)">Success 2</button>
+        <button class="button-fail" id="button4" onclick="toggleState(4)">Failure 2</button>
+      </div>
+      <div class="question-group">
+        <p class="question-title"><strong>Overall:</strong> Does the result match with the overall prompt?</p>
+        <button class="button-success" id="button5" onclick="toggleState(5)">Success 3</button>
+        <button class="button-fail" id="button6" onclick="toggleState(6)">Failure 3</button>
+      </div>
+      <button id="nextButton" onclick="submitAndLoadNext()" style="margin-left: 75px;">Go to Next</button>
+      <button onclick="exportTableToCSV('export.csv')" style="margin-left: 70px;">Export Table</button>
     </div>
-    <div>
-      <button class="button-success" id="button5" onclick="toggleState(5)">Success 3</button>
-      <button class="button-fail" id="button6" onclick="toggleState(6)">Failure 3</button>
-    </div>
-    <button id="nextButton" onclick="submitAndLoadNext()">Go to Next</button>
-    <button onclick="exportTableToCSV('export.csv')">Export Table</button>
-  </div>
-  <div class="table-container">
-    <table id="recordTable">
-      <tr>
-        <th>Original Object</th>
-        <th>Prompt</th>
-        <th>Button Value</th>
-      </tr>
-    </table>
   </div>
 
   <script>
     let videoList = [];
     let videoIndex = 0;
-    let count = 0; // 确保声明并初始化计数器
-    let buttonStates = [null, null, null]; // 存储每组按钮的状态
+    let count = 0;
+    let buttonStates = [null, null, null];
 
     document.addEventListener('DOMContentLoaded', function() {
       fetch('output.json')
@@ -125,6 +196,14 @@
           }
         })
         .catch(error => console.error('Error loading the JSON data: ', error));
+    });
+
+
+    document.addEventListener('keydown', function(event) {
+      if (event.code === 'Space') {
+        event.preventDefault();
+        submitAndLoadNext();
+      }
     });
 
     document.addEventListener('DOMContentLoaded', function() {
@@ -161,15 +240,21 @@
       }
       const currentVideo = videoList[index];
       const videoPlayer = document.getElementById('videoPlayer');
+      const videoCenter = document.getElementById('videoCenter');
       const imageDisplay = document.getElementById('imageDisplay');
       const imagePath = `/${currentVideo.folder}/rendered_pic.png`;
+      const videoPath = currentVideo.path;
 
       document.getElementById('pageTitle').textContent = currentVideo.name;
-      videoPlayer.src = currentVideo.path;
+      videoPlayer.src = videoPath;
+      videoCenter.src = videoPath;
       imageDisplay.src = imagePath;
-      videoPlayer.load();
 
-      resetButtonStates();
+      videoPlayer.load();
+      videoCenter.load();
+
+      videoPlayer.removeAttribute('controls');
+      videoCenter.removeAttribute('controls');
     }
 
     function resetButtonStates() {
@@ -215,17 +300,19 @@
       const cell4 = row.insertCell(4);
       cell0.innerHTML = currentVideo.folder;
       cell1.innerHTML = currentVideo.name;
-      cell2.innerHTML = buttonStates[0];
-      cell3.innerHTML = buttonStates[1];
-      cell4.innerHTML = buttonStates[2];
+      cell2.innerHTML = buttonStates[0]; // Recognizable
+      cell3.innerHTML = buttonStates[1]; // Adjectives
+      cell4.innerHTML = buttonStates[2]; // Overall
 
       count++;
       updateProgressDisplay();
       videoIndex++;
+
       buttonStates = [null, null, null];
 
       if (videoIndex < videoList.length) {
         loadMedia(videoIndex);
+        resetButtonStates();
       } else {
         alert('No more videos to review');
         exportTableToCSV('export.csv');
