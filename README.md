@@ -7,8 +7,8 @@ The dataset includes two comparison groups: 000-049 and 050-100.
 Both use the same 50 base models as prop, randomly selected from each category in ShapeNet (https://shapenet.org/) to ensure a diverse range of shapes.
 The groups differ in their prompts: the first group uses eight consistent prompts across all models, whereas the second group has customized prompts tailored to each model’s specific shape. ticipants will evaluate the system's effectiveness by assessing each group's success or failure.
 
-Participants will evaluate the system's effectiveness by assessing each group's success or failure.
-The evaluation time may vary, typically around 90 minutes, depending on the speed of judgment.
+Participants will evaluate the system's effectiveness by assessing each group's success or failure based on three Criteria.
+The evaluation time may vary, typically around 120 minutes, depending on the speed of judgment.
 
 
 ## Instructions
@@ -42,28 +42,3 @@ Now the test will be running at: http://localhost:8000/index.html
 - A pop-up reminder will help prevent accidental exit, and your progress will automatically save once you finish all 800 groups.   
 - The page will remain active even after reaching 800 evaluations or manual saving.  
 - You can use keyboard shortcuts 'Y' for yes and 'N' for no.
-
-## Calibration
-For calibration, we give three typical groups for each success/fail: 
-
-**Failure**:
-1. Prompt: A red mushroom    
-<img src="fail1.png" style="width: 256px;">  <img src="fail1.gif" style="width: 256px;">  
-
-2. Prompt: A talking cactus with a sombrero  
-<img src="fail2.png" style="width: 256px;">  <img src="fail2.gif" style="width: 256px;">
-
-3. Prompt: Dragon  
-<img src="fail3.png" style="width: 256px;">  <img src="fail3.gif" style="width: 256px;">
-
-
-
-**Success**:
-1. Prompt: Spaceship  
-<img src="success1.png" style="width: 256px;">  <img src="success1.gif" style="width: 256px;">
-
-2. Prompt: Pink jar with woven texture  
-<img src="success2.png" style="width: 256px;">  <img src="success2.gif" style="width: 256px;">
-
-3. Prompt: Smart Home Central Hub  
-<img src="success3.png" style="width: 256px;">  <img src="success3.gif" style="width: 256px;">
