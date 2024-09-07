@@ -161,26 +161,82 @@
     </div>
     <div class="right-container">
       <div class="question-group">
-        <p class="question-title"><strong>Recognizable:</strong> Is the element from the prompt recognizable? </p>
-        <button class="button-success" id="button1" onclick="toggleState(1)">Success 1</button>
-        <button class="button-fail" id="button2" onclick="toggleState(2)">Failure 1</button>
+        <p class="question-title">Does the model include the <strong>main elements</strong> from the prompt? </p>
+        <button class="button-success" id="button1" onclick="toggleState(1)">YES</button>
+        <button class="button-fail" id="button2" onclick="toggleState(2)">NO</button>
       </div>
       <div class="question-group">
-        <p class="question-title"><strong>Adjectives:</strong> Does the result align with the adjectives? </p>
-        <button class="button-success" id="button3" onclick="toggleState(3)">Success 2</button>
-        <button class="button-fail" id="button4" onclick="toggleState(4)">Failure 2</button>
+        <p class="question-title">Does the model accurately represent specific features from the prompt, like <strong>color or texture</strong>?</p>
+        <button class="button-success" id="button3" onclick="toggleState(3)">YES</button>
+        <button class="button-fail" id="button4" onclick="toggleState(4)">NO</button>
       </div>
       <div class="question-group">
-        <p class="question-title"><strong>Overall:</strong> Does the result match with the overall prompt?</p>
-        <button class="button-success" id="button5" onclick="toggleState(5)">Success 3</button>
-        <button class="button-fail" id="button6" onclick="toggleState(6)">Failure 3</button>
+        <p class="question-title">Does the model reflect the <strong>intended theme</strong> of the prompt?</p>
+        <button class="button-success" id="button5" onclick="toggleState(5)">YES</button>
+        <button class="button-fail" id="button6" onclick="toggleState(6)">NO</button>
       </div>
-      <button id="nextButton" onclick="submitAndLoadNext()" style="margin-left: 75px;">Go to Next</button>
-      <button onclick="exportTableToCSV('export.csv')" style="margin-left: 70px;">Export Table</button>
+      <button id="nextButton" onclick="submitAndLoadNext()" style="margin-left: 20px;">Go to Next</button>
+      <button onclick="exportTableToCSV('export.csv')" style="margin-left: 20px;">Export Table</button>
     </div>
   </div>
 
   <script>
+    // YN shortcut system
+    let currentGroup = 0;
+    document.addEventListener('keydown', function(event) {
+      if (event.code === 'KeyY') {
+        event.preventDefault();
+        applyShortcut('success');
+      } else if (event.code === 'KeyN') {
+        event.preventDefault();
+        applyShortcut('failure');
+      }
+    });
+
+    function applyShortcut(type) {
+      for (let i = currentGroup; i < buttonStates.length; i++) {
+        if (buttonStates[i] === null) { // first available button
+          const successButtonId = 2 * i + 1; //  success button id
+          const failureButtonId = 2 * i + 2; // failure button id
+
+          if (type === 'success') {
+            toggleState(successButtonId);
+          } else if (type === 'failure') {
+            toggleState(failureButtonId);
+          }
+
+          currentGroup = i + 1; // update currentGroup
+          break;
+        }
+      }
+    }
+
+    function loadMedia(index) {
+      if (index >= videoList.length) {
+        return;
+      }
+
+      const currentVideo = videoList[index];
+      const videoPlayer = document.getElementById('videoPlayer');
+      const videoCenter = document.getElementById('videoCenter');
+      const imageDisplay = document.getElementById('imageDisplay');
+      const imagePath = `/${currentVideo.folder}/rendered_pic.png`;
+      const videoPath = currentVideo.path;
+
+      document.getElementById('pageTitle').textContent = currentVideo.name;
+      videoPlayer.src = videoPath;
+      videoCenter.src = videoPath;
+      imageDisplay.src = imagePath;
+
+      videoPlayer.load();
+      videoCenter.load();
+
+      videoPlayer.removeAttribute('controls');
+      videoCenter.removeAttribute('controls');
+
+      currentGroup = 0; // reset currentGroup
+    }
+
     let videoList = [];
     let videoIndex = 0;
     let count = 0;
@@ -309,6 +365,7 @@
       videoIndex++;
 
       buttonStates = [null, null, null];
+      currentGroup = 0;
 
       if (videoIndex < videoList.length) {
         loadMedia(videoIndex);

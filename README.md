@@ -16,9 +16,9 @@ The evaluation platform is hosted on a local HTML server to enhance stability.
 Each page displays the prompt, the original image, and the video result. 
 Participants should judge the results based on the following criteria:  
 **Criteria**: 
-- **Is the element from the prompt recognizable in the result?**
-- **Does the result align with the adjectives in the prompt?**
-- **Does the result match with the overall prompt?**
+- **Does the model include the main elements from the prompt?**
+- **Does the model accurately represent specific features from the prompt, like color or texture?**
+- **Does the model reflect the intended theme of the prompt?**
 
 <img src="WebScreenshot.png" alt="Example Image" style="max-width: 500px;">
 
@@ -41,7 +41,7 @@ Now the test will be running at: http://localhost:8000/index.html
 - We choose local server for stability, but it's important to allocate enough time to complete the session in one sitting (approximately 90 minutes).   
 - A pop-up reminder will help prevent accidental exit, and your progress will automatically save once you finish all 800 groups.   
 - The page will remain active even after reaching 800 evaluations or manual saving.  
-- You can use keyboard shortcuts 'S' for success and 'F' for failure.
+- You can use keyboard shortcuts 'Y' for yes and 'N' for no.
 
 ## Calibration
 For calibration, we give three typical groups for each success/fail: 
