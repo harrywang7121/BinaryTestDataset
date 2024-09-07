@@ -275,7 +275,8 @@
         data[folder].forEach(subFolder => {
           const formattedSubFolder = subFolder.replace(/_/g, ' ');
           const path = `/${folder}/${subFolder}/0/render.mp4`;
-          list.push({ path: path, name: formattedSubFolder, folder: folder });
+          const title = `${folder}: ${formattedSubFolder}`; // 拼接 key 和 value
+          list.push({ path: path, name: title, folder: folder });
         });
       }
       list = shuffleArray(list);
@@ -301,7 +302,9 @@
       const imagePath = `/${currentVideo.folder}/rendered_pic.png`;
       const videoPath = currentVideo.path;
 
+      // 更新页面标题，使用拼接后的 key + value
       document.getElementById('pageTitle').textContent = currentVideo.name;
+
       videoPlayer.src = videoPath;
       videoCenter.src = videoPath;
       imageDisplay.src = imagePath;
@@ -312,6 +315,7 @@
       videoPlayer.removeAttribute('controls');
       videoCenter.removeAttribute('controls');
     }
+
 
     function resetButtonStates() {
       buttonStates = [null, null, null];
