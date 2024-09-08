@@ -5,9 +5,385 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2040ce61-564b-4d25-9fe0-b825fef98ab1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_09_2024,_11_16_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_09_2024,_11_24_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_09_2024,_11_24_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_09_2024,_11_25_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_09_2024__11_16__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_09_2024__11_24__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_09_2024__11_24__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_09_2024__11_25__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fail3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/02876657_fdc47f5f8dff184830eaaf40a8a562c1_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/A_snowy_owl_with_silver_feathers_singing/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/A_snowy_owl_with_silver_feathers_singing/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/A_snowy_owl_with_silver_feathers_singing/A_snowy_owl_with_silver_feathers_singing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/A_talking_cactus_with_a_sombrero/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/A_talking_cactus_with_a_sombrero/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/A_talking_cactus_with_a_sombrero/A_talking_cactus_with_a_sombrero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/Dragon/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/Dragon/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/Dragon/Dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/Silver_Rocket/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/Silver_Rocket/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/Silver_Rocket/Silver_Rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/Spaceship/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/Spaceship/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/Spaceship/Spaceship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/a_red_mushroom/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/a_red_mushroom/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/a_red_mushroom/a_red_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/copper_Robot_with_glowing_eyes/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/copper_Robot_with_glowing_eyes/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/copper_Robot_with_glowing_eyes/copper_Robot_with_glowing_eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/jewellery_with_gold_and_silver/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/jewellery_with_gold_and_silver/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/jewellery_with_gold_and_silver/jewellery_with_gold_and_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/008/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/02880940_ea473a79fd2c98e5789eafad9d8a9394_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/A_snowy_owl_with_silver_feathers_singing/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/A_snowy_owl_with_silver_feathers_singing/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/A_snowy_owl_with_silver_feathers_singing/A_snowy_owl_with_silver_feathers_singing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/A_talking_cactus_with_a_sombrero/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/A_talking_cactus_with_a_sombrero/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/A_talking_cactus_with_a_sombrero/A_talking_cactus_with_a_sombrero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/Dragon/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/Dragon/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/Dragon/Dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/Silver_Rocket/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/Silver_Rocket/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/Silver_Rocket/Silver_Rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/Spaceship/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/Spaceship/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/Spaceship/Spaceship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/a_red_mushroom/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/a_red_mushroom/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/a_red_mushroom/a_red_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/copper_Robot_with_glowing_eyes/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/copper_Robot_with_glowing_eyes/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/copper_Robot_with_glowing_eyes/copper_Robot_with_glowing_eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/jewellery_with_gold_and_silver/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/jewellery_with_gold_and_silver/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/jewellery_with_gold_and_silver/jewellery_with_gold_and_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/009/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/02924116_183c1ef7e783a05a8aa27cedfe9e8bf6_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/A_snowy_owl_with_silver_feathers_singing/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/A_snowy_owl_with_silver_feathers_singing/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/A_snowy_owl_with_silver_feathers_singing/A_snowy_owl_with_silver_feathers_singing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/A_talking_cactus_with_a_sombrero/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/A_talking_cactus_with_a_sombrero/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/A_talking_cactus_with_a_sombrero/A_talking_cactus_with_a_sombrero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/Dragon/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/Dragon/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/Dragon/Dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/Silver_Rocket/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/Silver_Rocket/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/Silver_Rocket/Silver_Rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/Spaceship/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/Spaceship/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/Spaceship/Spaceship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/a_red_mushroom/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/a_red_mushroom/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/a_red_mushroom/a_red_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/copper_Robot_with_glowing_eyes/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/copper_Robot_with_glowing_eyes/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/copper_Robot_with_glowing_eyes/copper_Robot_with_glowing_eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/jewellery_with_gold_and_silver/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/jewellery_with_gold_and_silver/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/jewellery_with_gold_and_silver/jewellery_with_gold_and_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/010/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/02933112_7ed5c429313f20e079bb09dc5605a57_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/A_snowy_owl_with_silver_feathers_singing/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/A_snowy_owl_with_silver_feathers_singing/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/A_snowy_owl_with_silver_feathers_singing/A_snowy_owl_with_silver_feathers_singing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/A_talking_cactus_with_a_sombrero/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/A_talking_cactus_with_a_sombrero/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/A_talking_cactus_with_a_sombrero/A_talking_cactus_with_a_sombrero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/Dragon/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/Dragon/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/Dragon/Dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/Silver_Rocket/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/Silver_Rocket/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/Silver_Rocket/Silver_Rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/Spaceship/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/Spaceship/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/Spaceship/Spaceship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/a_red_mushroom/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/a_red_mushroom/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/a_red_mushroom/a_red_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/copper_Robot_with_glowing_eyes/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/copper_Robot_with_glowing_eyes/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/copper_Robot_with_glowing_eyes/copper_Robot_with_glowing_eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/jewellery_with_gold_and_silver/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/jewellery_with_gold_and_silver/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/jewellery_with_gold_and_silver/jewellery_with_gold_and_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/011/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/02773838_65680f336a50db976afa58a86636d6be_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/A_snowy_owl_with_silver_feathers_singing/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/A_snowy_owl_with_silver_feathers_singing/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/A_snowy_owl_with_silver_feathers_singing/A_snowy_owl_with_silver_feathers_singing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/A_talking_cactus_with_a_sombrero/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/A_talking_cactus_with_a_sombrero/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/A_talking_cactus_with_a_sombrero/A_talking_cactus_with_a_sombrero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/Dragon/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/Dragon/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/Dragon/Dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/Silver_Rocket/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/Silver_Rocket/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/Silver_Rocket/Silver_Rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/Spaceship/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/Spaceship/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/Spaceship/Spaceship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/a_red_mushroom/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/a_red_mushroom/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/a_red_mushroom/a_red_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/copper_Robot_with_glowing_eyes/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/copper_Robot_with_glowing_eyes/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/copper_Robot_with_glowing_eyes/copper_Robot_with_glowing_eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/jewellery_with_gold_and_silver/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/jewellery_with_gold_and_silver/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/jewellery_with_gold_and_silver/jewellery_with_gold_and_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/012/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/02942699_15e72ce7a8a328d1fd9cfa6c7f5305bc_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/A_snowy_owl_with_silver_feathers_singing/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/A_snowy_owl_with_silver_feathers_singing/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/A_snowy_owl_with_silver_feathers_singing/A_snowy_owl_with_silver_feathers_singing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/A_talking_cactus_with_a_sombrero/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/A_talking_cactus_with_a_sombrero/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/A_talking_cactus_with_a_sombrero/A_talking_cactus_with_a_sombrero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/Dragon/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/Dragon/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/Dragon/Dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/Silver_Rocket/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/Silver_Rocket/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/Silver_Rocket/Silver_Rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/Spaceship/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/Spaceship/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/Spaceship/Spaceship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/a_red_mushroom/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/a_red_mushroom/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/a_red_mushroom/a_red_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/copper_Robot_with_glowing_eyes/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/copper_Robot_with_glowing_eyes/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/copper_Robot_with_glowing_eyes/copper_Robot_with_glowing_eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/jewellery_with_gold_and_silver/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/jewellery_with_gold_and_silver/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/jewellery_with_gold_and_silver/jewellery_with_gold_and_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/013/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/02942699_290abe056b205c08240c46d333a693f_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/A_snowy_owl_with_silver_feathers_singing/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/A_snowy_owl_with_silver_feathers_singing/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/A_snowy_owl_with_silver_feathers_singing/A_snowy_owl_with_silver_feathers_singing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/A_talking_cactus_with_a_sombrero/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/A_talking_cactus_with_a_sombrero/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/A_talking_cactus_with_a_sombrero/A_talking_cactus_with_a_sombrero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/Dragon/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/Dragon/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/Dragon/Dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/Silver_Rocket/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/Silver_Rocket/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/Silver_Rocket/Silver_Rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/Spaceship/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/Spaceship/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/Spaceship/Spaceship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/a_red_mushroom/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/a_red_mushroom/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/a_red_mushroom/a_red_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/copper_Robot_with_glowing_eyes/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/copper_Robot_with_glowing_eyes/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/copper_Robot_with_glowing_eyes/copper_Robot_with_glowing_eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/jewellery_with_gold_and_silver/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/jewellery_with_gold_and_silver/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/jewellery_with_gold_and_silver/jewellery_with_gold_and_silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/014/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/02876657_fdc47f5f8dff184830eaaf40a8a562c1_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Ceramic_urn/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Ceramic_urn/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Ceramic_urn/Ceramic_urn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Jug/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Jug/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Jug/Jug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Light_saber_handle/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Light_saber_handle/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Light_saber_handle/Light_saber_handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Ornate_flask_with_detailed_etchings/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Ornate_flask_with_detailed_etchings/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Ornate_flask_with_detailed_etchings/Ornate_flask_with_detailed_etchings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Pill_bottle/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Pill_bottle/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Pill_bottle/Pill_bottle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Plastic_container_with_label/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Plastic_container_with_label/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Plastic_container_with_label/Plastic_container_with_label.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Space_capsule_with_white_and_yellow_color/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Space_capsule_with_white_and_yellow_color/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Space_capsule_with_white_and_yellow_color/Space_capsule_with_white_and_yellow_color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Vial_with_a_cork/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Vial_with_a_cork/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/Vial_with_a_cork/Vial_with_a_cork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/rendered_pic 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/058/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/02880940_ea473a79fd2c98e5789eafad9d8a9394_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Advanced_Acoustic_Amplifier/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Advanced_Acoustic_Amplifier/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Advanced_Acoustic_Amplifier/Advanced_Acoustic_Amplifier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Clay_pot_with_green_decoration/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Clay_pot_with_green_decoration/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Clay_pot_with_green_decoration/Clay_pot_with_green_decoration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Eco-Friendly_Water_Collector/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Eco-Friendly_Water_Collector/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Eco-Friendly_Water_Collector/Eco-Friendly_Water_Collector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Futuristic_Zen_Garden/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Futuristic_Zen_Garden/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Futuristic_Zen_Garden/Futuristic_Zen_Garden.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Meditation_Pod/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Meditation_Pod/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Meditation_Pod/Meditation_Pod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Micro_World/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Micro_World/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Micro_World/Micro_World.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Teleportation_Platform/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Teleportation_Platform/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Teleportation_Platform/Teleportation_Platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Water_Generator/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Water_Generator/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/Water_Generator/Water_Generator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/rendered_pic 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/059/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/02924116_183c1ef7e783a05a8aa27cedfe9e8bf6_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/Bus_with_racing_paint/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/Bus_with_racing_paint/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/Bus_with_racing_paint/Bus_with_racing_paint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/Greyhound_Lines_bus/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/Greyhound_Lines_bus/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/Greyhound_Lines_bus/Greyhound_Lines_bus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/Japanese_bullet_train/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/Japanese_bullet_train/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/Japanese_bullet_train/Japanese_bullet_train.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/London_double-decker/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/London_double-decker/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/London_double-decker/London_double-decker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/School_bus/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/School_bus/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/School_bus/School_bus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/grey_submarine_with_missiles_ready/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/grey_submarine_with_missiles_ready/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/grey_submarine_with_missiles_ready/grey_submarine_with_missiles_ready.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/high_speed_train/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/high_speed_train/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/high_speed_train/high_speed_train.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/racing_car/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/racing_car/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/racing_car/racing_car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/060/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/02933112_7ed5c429313f20e079bb09dc5605a57_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/Wooden_furniture_with_draws/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/Wooden_furniture_with_draws/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/Wooden_furniture_with_draws/Wooden_furniture_with_draws.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/amazon_package/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/amazon_package/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/amazon_package/amazon_package.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/rendered_pic 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/steel_locker/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/steel_locker/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/steel_locker/steel_locker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/vintage_treasure_box/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/vintage_treasure_box/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/vintage_treasure_box/vintage_treasure_box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/vintage_wooden_cabinet/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/vintage_wooden_cabinet/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/vintage_wooden_cabinet/vintage_wooden_cabinet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/wardrobe/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/wardrobe/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/wardrobe/wardrobe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/water_tank_with_fish_inside/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/water_tank_with_fish_inside/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/water_tank_with_fish_inside/water_tank_with_fish_inside.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/wooden_paper_box/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/wooden_paper_box/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/061/wooden_paper_box/wooden_paper_box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/02773838_65680f336a50db976afa58a86636d6be_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Anti-Theft_handbag/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Anti-Theft_handbag/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Anti-Theft_handbag/Anti-Theft_handbag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Eco-Friendly_Compostable_Bag/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Eco-Friendly_Compostable_Bag/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Eco-Friendly_Compostable_Bag/Eco-Friendly_Compostable_Bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Holographic_Display_Bag/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Holographic_Display_Bag/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Holographic_Display_Bag/Holographic_Display_Bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Sack/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Sack/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Sack/Sack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Solar-Powered_Charging_Bag/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Solar-Powered_Charging_Bag/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/Solar-Powered_Charging_Bag/Solar-Powered_Charging_Bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/grass_decorated_handbag/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/grass_decorated_handbag/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/grass_decorated_handbag/grass_decorated_handbag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/hermes_orange_leather_bag/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/hermes_orange_leather_bag/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/hermes_orange_leather_bag/hermes_orange_leather_bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/rendered_pic 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/yellow_hovercraft_with_people/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/yellow_hovercraft_with_people/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/062/yellow_hovercraft_with_people/yellow_hovercraft_with_people.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/02942699_15e72ce7a8a328d1fd9cfa6c7f5305bc_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/Air_Purifier/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/Air_Purifier/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/Air_Purifier/Air_Purifier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/SLOW_DOWN_Road_Sign/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/SLOW_DOWN_Road_Sign/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/SLOW_DOWN_Road_Sign/SLOW_DOWN_Road_Sign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/amazon_package/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/amazon_package/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/amazon_package/amazon_package.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/fish_tank/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/fish_tank/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/fish_tank/fish_tank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/robot_vacuum/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/robot_vacuum/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/robot_vacuum/robot_vacuum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/shuttle_bus/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/shuttle_bus/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/shuttle_bus/shuttle_bus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/soundbox/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/soundbox/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/soundbox/soundbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/steel_locker/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/steel_locker/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/063/steel_locker/steel_locker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/02942699_290abe056b205c08240c46d333a693f_mist0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/Amazon_echo_dot/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/Amazon_echo_dot/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/Amazon_echo_dot/Amazon_echo_dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/Desktop_robot_with_a_big_eye/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/Desktop_robot_with_a_big_eye/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/Desktop_robot_with_a_big_eye/Desktop_robot_with_a_big_eye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/Diamond_Decoration/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/Diamond_Decoration/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/Diamond_Decoration/Diamond_Decoration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/UFO_with_blue_light/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/UFO_with_blue_light/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/UFO_with_blue_light/UFO_with_blue_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/a_big_strawberry/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/a_big_strawberry/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/a_big_strawberry/a_big_strawberry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/orange/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/orange/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/orange/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/rendered_pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/robot/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/robot/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/robot/robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/scanning_machine_with_a_big_camera/0/input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/scanning_machine_with_a_big_camera/0/render.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/064/scanning_machine_with_a_big_camera/scanning_machine_with_a_big_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/output.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +415,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wanghaoyu/Desktop/BinaryTestDataset/068/Fresh_Meat&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "test700",
+    "last_opened_file_path": "/Users/wanghaoyu/Desktop/BinaryTestDataset/068/Fresh_Meat",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/068/Fresh_Meat" />

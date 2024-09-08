@@ -136,7 +136,7 @@
 <body>
   <div class="container">
     <div class="left-container">
-      <div id="progressDisplay">Progress: 0/800</div>
+      <div id="progressDisplay">Progress: 0/688</div>
       <h2 id="pageTitle">Video Title</h2>
       <div class="media-container" style="padding-bottom: 30px">
         <img id="imageDisplay" src="" alt="Associated Image">
@@ -254,7 +254,6 @@
         .catch(error => console.error('Error loading the JSON data: ', error));
     });
 
-
     document.addEventListener('keydown', function(event) {
       if (event.code === 'Space') {
         event.preventDefault();
@@ -275,12 +274,14 @@
         data[folder].forEach(subFolder => {
           const formattedSubFolder = subFolder.replace(/_/g, ' ');
           const path = `/${folder}/${subFolder}/0/render.mp4`;
-          list.push({ path: path, name: formattedSubFolder, folder: folder });
+          const combinedTitle = `${folder}: ${formattedSubFolder}`;
+          list.push({ path: path, name: combinedTitle, folder: folder });
         });
       }
       list = shuffleArray(list);
       return list;
     }
+
 
     function shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
@@ -294,6 +295,7 @@
       if (index >= videoList.length) {
         return;
       }
+
       const currentVideo = videoList[index];
       const videoPlayer = document.getElementById('videoPlayer');
       const videoCenter = document.getElementById('videoCenter');
@@ -311,7 +313,10 @@
 
       videoPlayer.removeAttribute('controls');
       videoCenter.removeAttribute('controls');
+
+      currentGroup = 0; // reset currentGroup
     }
+
 
     function resetButtonStates() {
       buttonStates = [null, null, null];
