@@ -24,10 +24,6 @@ Participants should judge the results based on the following criteria:
 
 ## Launch
 First, clone this dataset to your local (Cloning this repository requires 900MB of space.)
-   ```bash
-   git clone https://github.com/harrywang7121/BinaryTestDataset
-   cd BinaryTestDataset
-   ```
 then start a local web server:
    ```bash
    python -m http.server  
